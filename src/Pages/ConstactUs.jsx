@@ -63,25 +63,25 @@ const ContactUs = () => {
             <FaEnvelope className="contact-info-icon" />
             <div className="contact-info-text">
               <a
-                href="mailto:vikas1662005@gmail.com"
+                href="mailto:pursuit@ssgmce.ac.in"
                 className="contact-info-link"
               >
-                vikas1662005@gmail.com
+                pursuit@ssgmce.ac.in
               </a>
             </div>
           </div>
           <div className="contact-info-item phone-multiple">
             <div className="phone-row">
               <FaPhone className="contact-info-icon" />
-              <a href="tel:+919067718922" className="contact-info-link">
-                +91 9067718922
+              <a href="tel:+918766417815" className="contact-info-link">
+                +91 8766417815
               </a>
             </div>
 
             <div className="phone-row">
               <FaPhone className="contact-info-icon" />
-              <a href="tel:+919067718933" className="contact-info-link">
-                +91 9067718933
+              <a href="tel:+918208772402" className="contact-info-link">
+                +91 8208772402
               </a>
             </div>
           </div>
