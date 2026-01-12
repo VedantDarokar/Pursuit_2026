@@ -5,7 +5,23 @@ import bgVideo from "../assets/bgpursuit.mp4";
 import HeadPlaceholder from "../assets/pursuitlogo.png";
 import Mentor1Image from "../assets/mentor/mentor1.png";
 import Mentor2Image from "../assets/mentor/mentor2.jpg";
-import coreteam1 from "../assets/coreteam/VedantDarokar.jpg";
+import VedantDarokarImage from "../assets/coreteam/VedantDarokar.jpg";
+import OmDeshmukhImage from "../assets/coreteam/Om Deshmukh.jpg";
+import SanskrutiKakadeImage from "../assets/coreteam/Sanskruti Kakade.jpg";
+import DhanashriBordeImage from "../assets/coreteam/Dhanshri Borde.jpg";
+import RanjitDhakareImage from "../assets/coreteam/RANJIT DHAKARE.png";
+import OmKondeImage from "../assets/coreteam/Om Konde.jpg";
+import KrishnaDeshmukhImage from "../assets/coreteam/Krishna Deshmukh.jpg";
+import PoonamDandgeImage from "../assets/coreteam/Poonam Dandage.jpg";
+import HemaniPrajapatiImage from "../assets/coreteam/Hemani Prajapati.jpg";
+import MayurAdhaoImage from "../assets/coreteam/Mayur Adhao.jpg";
+import PranaliPandeImage from "../assets/coreteam/Pranali Pande.jpg";
+import DeepRathodImage from "../assets/coreteam/Deep Rathod.jpg";
+import ShrawaniVaidyaImage from "../assets/coreteam/Shrawani Vaidya.jpg";
+import MohitaNimjeImage from "../assets/coreteam/Mohita Nimje.JPG";
+import AbhishekKanherkarImage from "../assets/coreteam/abhishek.png";
+import NihalKankalImage from "../assets/coreteam/nihalkankal.jpg";
+import ShripadIngleImage from "../assets/coreteam/shripadingle.png";
 
 
 const mentors = [
@@ -13,13 +29,11 @@ const mentors = [
     name: "Dr. S. B. Somani",
     role: "Principal SSGMCE SHEGAON",
     image: Mentor1Image,
-    words: "Your inspirational words or quote here. This section will display horizontally in the card.",
   },
   {
     name: "Dr. K. V. Chandan",
     role: "Faculty Co-Ordinator \nPursuit'26",
     image: Mentor2Image,
-    words: "Your inspirational words or quote here. This section will display horizontally in the card.",
   },
 ];
 const coreHeads = [
@@ -27,95 +41,83 @@ const coreHeads = [
     name: "Vikas Gawade",
     role: "Student Co-Ordinator",
     image: HeadPlaceholder,
-    phone: "+91 9000000001",
     instagram: "https://www.instagram.com/vikasgawade166/",
     linkedin: "https://www.linkedin.com/in/vikas-gawade-166/",
   },
   {
     name: "Om Deshmukh",
     role: "Student Co-Coordinator",
-    image: HeadPlaceholder,
-    phone: "+91 9000000001",
-    instagram: "https://www.instagram.com/omdeshmukh007/",
+    image: OmDeshmukhImage,
+    instagram: "https://www.instagram.com/om_deshmukh18?igsh=MTJja25mMjR3OTI5eQ==",
     linkedin: "https://www.linkedin.com/in/om-deshmukh-007/",
   },
   {
     name: "Vedant Darokar",
     role: "Student Co-Coordinator",
-    image: coreteam1,
-    phone: "+91 8208772402",
-    instagram: "https://www.instagram.com/vedantdarokar/",
+    image: VedantDarokarImage,
+    instagram: "https://www.instagram.com/vedant_darokar_15",
     linkedin: "https://www.linkedin.com/in/vedant-darokar-566a1a260/",
   },
   {
     name: "Nihal Kankal",
     role: "Student Co-Coordinator",
-    image: HeadPlaceholder,
-    phone: "+91 9000000001",
+    image: NihalKankalImage,
     instagram: "https://www.instagram.com/nihalkankal/",
     linkedin: "https://www.linkedin.com/in/nihalkankal/",
   },
   {
     name: "Sanskruti Kakade",
     role: "Student Co-Coordinator",
-    image: HeadPlaceholder,
-    phone: "+91 9000000003",
-    instagram: "https://www.instagram.com/sanskrutikakade/",
+    image: SanskrutiKakadeImage,
+    instagram: "https://www.instagram.com/_.sansskruti?igsh=MjFrZ2IyOGQ4cjg0",
     linkedin: "https://www.linkedin.com/in/sanskruti-kakade-566a1a260/",
   },
   {
     name: "Shripad Ingle",
     role: "Management Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000004",
+    image: ShripadIngleImage,
     instagram: "https://www.instagram.com/shripadingle/",
     linkedin: "https://www.linkedin.com/in/shripad-ingle-566a1a260/",
   },
   {
     name: "Dhanashri Borde",
     role: "Management Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000005",
-    instagram: "https://www.instagram.com/dhanashriborde/",
+    image: DhanashriBordeImage,
+    instagram: "https://www.instagram.com/dhanashri_borde75?igsh=ZnU0NWNvZTh4NmJw",
     linkedin: "https://www.linkedin.com/in/dhanashri-borde-566a1a260/",
   },
   {
     name: "Krushnagopal Agnihotri",
     role: "Social Media Head",
     image: HeadPlaceholder,
-    phone: "+91 9000000003",
-    instagram: "https://www.instagram.com/sanskrutikakade/",
-    linkedin: "https://www.linkedin.com/in/sanskruti-kakade-566a1a260/",
+    instagram: "https://www.instagram.com/wokenupkrish_/",
+    linkedin: "https://www.linkedin",
   },
   {
     name: "Ranjit Dhakare",
     role: "Cultural Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000003",
-    instagram: "https://www.instagram.com/sanskrutikakade/",
-    linkedin: "https://www.linkedin.com/in/sanskruti-kakade-566a1a260/",
+    image: RanjitDhakareImage,
+    instagram: "https://www.instagram.com/ranjit.patil_/",
+    linkedin: "https://www.linkedin.com/in/username",
   },
   {
     name: "Abhishek Kanherkar",
     role: "Publicity Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
+    image: AbhishekKanherkarImage,
+    instagram: "https://www.instagram.com/abhishekkanherkar03/",
     linkedin: "https://www.linkedin.com/",
   },
   {
     name: "Om Konde",
     role: "Publicity Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: OmKondeImage,
+    instagram: "https://www.instagram.com/om_3105_?igsh=ZHBxYmZoaWtmZm8x",
+    linkedin: "https://www.linkedin.com/in/om-konde-bb48b2290?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     name: "Chakradhar Mahale",
     role: "Treasurer",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
@@ -123,7 +125,6 @@ const coreHeads = [
     name: "Vikas More",
     role: "Technical Team",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
@@ -131,87 +132,76 @@ const coreHeads = [
     name: "Shreya Kathole",
     role: "Technical Team",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
   {
     name: "Krishna Deshmukh",
     role: "Sponsorship Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: KrishnaDeshmukhImage,
+    instagram: "https://www.instagram.com/deshmukh_krishnaa?igsh=amhtZzFzOGQ4eWN4",
+    linkedin: "https://www.linkedin.com/in/krishna-deshmukh-103bb2294",
   },
   {
     name: "Poonam Dandge",
     role: "Sponsorship Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
+    image: PoonamDandgeImage,
     instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    linkedin: "https://www.linkedin.com/in/poonam-dandage-381b96294?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
   {
     name: "Ajinkya Surange",
     role: "Decoration Team",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
   {
     name: "Hemani Prajapati",
     role: "Decoration Team",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: HemaniPrajapatiImage,
+    instagram: "https://www.instagram.com/hemani1503?igsh=NG4zandvYmJ1bDdo",
+    linkedin: "https://www.linkedin.com/in/hemani-prajapati-2007222b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Mayur Adhao",
     role: "Event and PR Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: MayurAdhaoImage,
+    instagram: "https://www.instagram.com/mayurxop_?igsh=ZGxxNGZxbGQzYjJs",
+    linkedin: "https://www.linkedin.com/in/mayur-adhao-4b474b272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Pranali Pande",
     role: "Event and PR Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: PranaliPandeImage,
+    instagram: "https://www.instagram.com/hyiapiness_2929",
+    linkedin: "https://www.linkedin.com/in/pranali-pande-ba7741295",
   },
   {
     name: "Piyush Pote",
     role: "Cultural Head",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
   {
     name: "Deep Rathod",
     role: "Registration Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: DeepRathodImage,
+    instagram: "https://www.instagram.com/deeprathod_17?igsh=MWUwbjlobTM2dnRuaw==",
+    linkedin: "https://www.linkedin.com/in/deep-17r",
   },
   {
     name: "Shrawani Vaidya",
     role: "Registration Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: ShrawaniVaidyaImage,
+    instagram: "https://www.instagram.com/shrawani2005?igsh=MWI1NW04bmc1NmJ5cQ==",
+    linkedin: "www.linkedin.com/in/shrawani-vaidya-5a08b3292",
   },
   {
     name: "Rutuja Dalal",
     role: "Report Writing Head",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
@@ -219,7 +209,6 @@ const coreHeads = [
     name: "Shraddha Kaple",
     role: "Report Writing Head",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
@@ -227,17 +216,15 @@ const coreHeads = [
     name: "Siddhant Dakhore",
     role: "Graphics Head",
     image: HeadPlaceholder,
-    phone: "+91 9000000000",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
   {
     name: "Mohita Nimje",
     role: "Graphics Head",
-    image: HeadPlaceholder,
-    phone: "+91 9000000000",
-    instagram: "https://www.instagram.com/",
-    linkedin: "https://www.linkedin.com/",
+    image: MohitaNimjeImage,
+    instagram: "https://www.instagram.com/mohita_nimje",
+    linkedin: "https://www.linkedin.com/in/mohita-nimje",
   },
 ];
 
@@ -266,9 +253,7 @@ const CoreTeam = () => {
                 <h3 className="core-name">{mentor.name}</h3>
                 <p className="mentor-role">{mentor.role}</p>
               </div>
-              <div className="mentor-card-right">
-                <p className="mentor-words">{mentor.words}</p>
-              </div>
+
             </article>
           ))}
         </div>
@@ -288,11 +273,7 @@ const CoreTeam = () => {
                 </div>
                 <h3 className="core-name">{head.name}</h3>
                 <p className="core-role">{head.role}</p>
-                {head.phone && (
-                  <a href={`tel:${head.phone}`} className="core-phone">
-                    {head.phone}
-                  </a>
-                )}
+
               </div>
 
               <div className="core-card-bottom">
