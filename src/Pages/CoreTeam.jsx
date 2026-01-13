@@ -22,6 +22,10 @@ import MohitaNimjeImage from "../assets/coreteam/Mohita Nimje.webp";
 import AbhishekKanherkarImage from "../assets/coreteam/abhishek.webp";
 import NihalKankalImage from "../assets/coreteam/nihalkankal.webp";
 import ShripadIngleImage from "../assets/coreteam/shripadingle.webp";
+import KrushnagopalAgnihotriImage from "../assets/coreteam/Krushnagopal Agnihotri.webp";
+import SharayuMhaskeImage from "../assets/coreteam/Sharayu Mhaske.webp";
+import VikasMoreImage from "../assets/coreteam/Vikas More.webp";
+import PiyushPoteImage from "../assets/coreteam/Piyush Pote.webp";
 
 
 const mentors = [
@@ -89,9 +93,16 @@ const coreHeads = [
     {
         name: "Krushnagopal Agnihotri",
         role: "Social Media Head",
-        image: HeadPlaceholder,
-        instagram: "https://www.instagram.com/wokenupkrish_/",
-        linkedin: "https://www.linkedin",
+        image: KrushnagopalAgnihotriImage,
+        instagram: "https://www.instagram.com/wokenupkrish_?igsh=ODlyMXFkYjk2ZHF3",
+        linkedin: "https://www.linkedin.com/in/krushnagopal-agnihotri-6b493b257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+        name: "Sharayu Mhaske",
+        role: "Social Media Head",
+        image: SharayuMhaskeImage,
+        instagram: "https://www.instagram.com/sharayyu._/",
+        linkedin: "https://www.linkedin.com/in/sharayu-mhaske-088b583a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
         name: "Ranjit Dhakare",
@@ -124,9 +135,9 @@ const coreHeads = [
     {
         name: "Vikas More",
         role: "Technical Team",
-        image: HeadPlaceholder,
-        instagram: "https://www.instagram.com/",
-        linkedin: "https://www.linkedin.com/",
+        image: VikasMoreImage,
+        instagram: "https://www.instagram.com/vikas_more2005?igsh=NWhobTlma2gzZm9t",
+        linkedin: "https://www.linkedin.com/in/vikasmore16",
     },
     {
         name: "Shreya Kathole",
@@ -180,7 +191,7 @@ const coreHeads = [
     {
         name: "Piyush Pote",
         role: "Cultural Head",
-        image: HeadPlaceholder,
+        image: PiyushPoteImage,
         instagram: "https://www.instagram.com/",
         linkedin: "https://www.linkedin.com/",
     },
