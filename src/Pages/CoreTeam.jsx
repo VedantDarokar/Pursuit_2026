@@ -22,10 +22,10 @@ import MohitaNimjeImage from "../assets/coreteam/Mohita Nimje.webp";
 import AbhishekKanherkarImage from "../assets/coreteam/abhishek.webp";
 import NihalKankalImage from "../assets/coreteam/nihalkankal.webp";
 import ShripadIngleImage from "../assets/coreteam/shripadingle.webp";
-import KrushnagopalAgnihotriImage from "../assets/coreteam/Krushnagopal Agnihotri.webp";
-import SharayuMhaskeImage from "../assets/coreteam/Sharayu Mhaske.webp";
-import VikasMoreImage from "../assets/coreteam/Vikas More.webp";
-import PiyushPoteImage from "../assets/coreteam/Piyush Pote.webp";
+import KrushnagopalAgnihotriImage from "../assets/coreteam/KrushnagopalAgnihotri.webp";
+import SharayuMhaskeImage from "../assets/coreteam/SharayuMhaske.webp";
+import VikasMoreImage from "../assets/coreteam/VikasMore.webp";
+import PiyushPoteImage from "../assets/coreteam/PiyushPote.webp";
 
 
 const mentors = [
