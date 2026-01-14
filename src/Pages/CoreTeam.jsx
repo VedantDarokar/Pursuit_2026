@@ -227,7 +227,7 @@ const coreHeads = [
         linkedin: "https://www.linkedin.com/",
     },
     {
-        name: "Siddhant Dakhore",
+        name: "Hanzala Khan",
         role: "Graphics Head",
         image: HeadPlaceholder,
         instagram: "https://www.instagram.com/",
