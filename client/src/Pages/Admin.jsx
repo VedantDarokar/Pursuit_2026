@@ -90,6 +90,22 @@ const Admin = () => {
         return registrations.filter(r => r.workshop === workshopName).length;
     };
 
+    const getWorkshopAmount = (workshopName) => {
+        return registrations.filter(r => r.workshop === workshopName).reduce((total, r) => {
+            const feeStr = String(r.fee || "0");
+            const amt = parseInt(feeStr.replace(/[^\d]/g, ''), 10) || 0;
+            return total + amt;
+        }, 0);
+    };
+
+    const getTotalAmount = () => {
+        return registrations.reduce((total, r) => {
+            const feeStr = String(r.fee || "0");
+            const amt = parseInt(feeStr.replace(/[^\d]/g, ''), 10) || 0;
+            return total + amt;
+        }, 0);
+    };
+
     const handleCardClick = (category) => {
         setSelectedCategory(category);
         setViewMode("details");
@@ -162,7 +178,9 @@ const Admin = () => {
                         <h3 className="admin-card-title">{ws.length > 20 ? ws.substring(0, 20) + "..." : ws}</h3>
                         <div className="admin-card-subtitle">WORKSHOP</div>
                         <div className="admin-card-count">{getWorkshopCount(ws)}</div>
-                        <div className="admin-card-footer">ACCESS STREAM</div>
+                        <div className="admin-card-footer">
+                            <span style={{color: '#ffd700'}}>₹{getWorkshopAmount(ws)}</span> • ACCESS STREAM
+                        </div>
                     </div>
                 </div>
             ))}
@@ -183,7 +201,9 @@ const Admin = () => {
                     <h3 className="admin-card-title" style={{ color: '#b3ffe6' }}>All Registrations</h3>
                     <div className="admin-card-subtitle">OVERVIEW</div>
                     <div className="admin-card-count">{registrations.length}</div>
-                    <div className="admin-card-footer">ACCESS STREAM</div>
+                    <div className="admin-card-footer">
+                        <span style={{color: '#ffd700'}}>₹{getTotalAmount()}</span> • ACCESS STREAM
+                    </div>
                 </div>
             </div>
         </div>
@@ -236,11 +256,18 @@ const Admin = () => {
             ? registrations 
             : registrations.filter(r => r.workshop === selectedCategory);
 
+        const totalCategoryAmount = selectedCategory === "All" 
+            ? getTotalAmount() 
+            : getWorkshopAmount(selectedCategory);
+
         return (
             <div className="admin-details-view">
                 <div className="admin-details-header">
                     <h3>{selectedCategory === "All" ? "All Registrations" : selectedCategory}</h3>
-                    <span style={{color: '#b3ffe6', fontWeight: 'bold'}}>Total: {filteredRegistrations.length}</span>
+                    <div style={{ display: 'flex', gap: '20px' }}>
+                        <span style={{color: '#ffd700', fontWeight: 'bold'}}>Amount: ₹{totalCategoryAmount}</span>
+                        <span style={{color: '#b3ffe6', fontWeight: 'bold'}}>Total: {filteredRegistrations.length}</span>
+                    </div>
                 </div>
                 <div className="admin-table-container">
                     <table className="admin-table">
