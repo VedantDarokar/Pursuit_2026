@@ -12,10 +12,11 @@ const workshopData = {
         date: "March 25",
         venue: "Web Tech Lab",
         schedule: "1 hr lunch",
-        fee: "₹ 49",
+        fee: "Entry Full",
         resourcePerson: "Mr. Amit Molke",
         coordinator: "Ashish Ingle (Chairperson)",
-        color: "#00f0ff"
+        color: "#00f0ff",
+        isFull: true
     },
     "mastering-latex": {
         name: "Mastering LaTeX: Type Smart, Not Hard",
@@ -37,10 +38,11 @@ const workshopData = {
         date: "March 27 to 28",
         venue: "DBMS Lab",
         schedule: "1 hr lunch",
-        fee: "₹ 100",
+        fee: "Entry Full",
         resourcePerson: "Mr. Yogesh P. Murumkar",
         coordinator: "Yash Mali (Chairperson)",
-        color: "#a78bfa"
+        color: "#a78bfa",
+        isFull: true
     },
     "vlsi-applications": {
         name: "Introduction to VLSI and Its Applications",
@@ -49,10 +51,11 @@ const workshopData = {
         date: "March 28",
         venue: "Cadence Lab",
         schedule: "1 hr lunch",
-        fee: "₹ 60",
+        fee: "Entry Full",
         resourcePerson: "Mr. Pranav Kheldar",
         coordinator: "Pranav Jadhav (Chairperson)",
-        color: "#60a5fa"
+        color: "#60a5fa",
+        isFull: true
     },
     "agentic-ai": {
         name: "Introduction to Agentic Ai",
@@ -61,10 +64,11 @@ const workshopData = {
         date: "March 28",
         venue: "Web Tech Lab",
         schedule: "1 hr lunch",
-        fee: "₹ 100",
+        fee: "Entry Full",
         resourcePerson: "Mr. Nakul Deshmukh",
         coordinator: "Satyam Mishra (Chairperson)",
-        color: "#22c55e"
+        color: "#22c55e",
+        isFull: true
     },
     "electric-vehicle": {
         name: "Electric Vehicle Workshop",
@@ -73,10 +77,11 @@ const workshopData = {
         date: "March 27 to 28",
         venue: "Swadhyay Kaksha",
         schedule: "1 hr lunch",
-        fee: "₹ 150",
+        fee: "Entry Full",
         resourcePerson: "Mr. Chetan Tajane",
         coordinator: "Tejas Pande (Chairperson)",
-        color: "#f59e0b"
+        color: "#f59e0b",
+        isFull: true
     },
     "cybersecurity": {
         name: "Cybersecurity Workshop",
@@ -85,10 +90,11 @@ const workshopData = {
         date: "March 27",
         venue: "Web Tech Lab",
         schedule: "1 hr lunch",
-        fee: "₹ 50",
+        fee: "Entry Full",
         resourcePerson: "Miss Riya Dangra",
         coordinator: "Sanchit Dangra (Chairperson)",
-        color: "#ef4444"
+        color: "#ef4444",
+        isFull: true
     },
     "web-development": {
         name: "Web Development Workshop",
@@ -109,10 +115,11 @@ const workshopData = {
         date: "March 27 to 28",
         venue: "AI-ML Lab",
         schedule: "1 hr lunch",
-        fee: "₹ 100",
+        fee: "Entry Full",
         resourcePerson: "Mr. Pratik Deshmukh",
         coordinator: "Shrinit Chavan (Chairperson)",
-        color: "#10b981"
+        color: "#10b981",
+        isFull: true
     },
     "esp32-raspberry-pi": {
         name: "Prototype to Product: ESP32 & Raspberry Pi",

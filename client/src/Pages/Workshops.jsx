@@ -26,15 +26,15 @@ const Workshops = () => {
   };
 
   const workshopList = [
-    { id: "cloud-byte", name: "Cloud Byte", image: Cloud, fee: "₹ 49" },
+    { id: "cloud-byte", name: "Cloud Byte", image: Cloud, fee: "Entry Full" },
     { id: "mastering-latex", name: "Mastering LaTeX:Type Smart, Not Hard", image: Latex, fee: "Entry Full" },
-    { id: "ai-ml-bootcamp", name: "AI/ML Bootcamp", image: AIML, fee: "₹ 100" },
-    { id: "vlsi-applications", name: "Introduction to VLSI and Its Applications", image: VLSI, fee: "₹ 60" },
-    { id: "agentic-ai", name: "Introduction to Agentic Ai", image: AI, fee: "₹ 100" },
-    { id: "electric-vehicle", name: "Electric Vehicle Workshop", image: EV, fee: "₹ 150" },
-    { id: "cybersecurity", name: "Cybersecurity Workshop", image: Cyber, fee: "₹ 50" },
+    { id: "ai-ml-bootcamp", name: "AI/ML Bootcamp", image: AIML, fee: "Entry Full" },
+    { id: "vlsi-applications", name: "Introduction to VLSI and Its Applications", image: VLSI, fee: "Entry Full" },
+    { id: "agentic-ai", name: "Introduction to Agentic Ai", image: AI, fee: "Entry Full" },
+    { id: "electric-vehicle", name: "Electric Vehicle Workshop", image: EV, fee: "Entry Full" },
+    { id: "cybersecurity", name: "Cybersecurity Workshop", image: Cyber, fee: "Entry Full" },
     { id: "web-development", name: "Web Development Workshop", image: Web, fee: "₹ 100" },
-    { id: "autodesk", name: "Autodesk Workshop", image: Autodesk, fee: "₹ 100" },
+    { id: "autodesk", name: "Autodesk Workshop", image: Autodesk, fee: "Entry Full" },
     { id: "esp32-raspberry-pi", name: "Prototype to Product: ESP32 & Raspberry Pi", image: IEEE, fee: "Entry Full" }
   ];
 

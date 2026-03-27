@@ -190,13 +190,8 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (formData.workshop === "Mastering LaTeX:Type Smart, Not Hard") {
-      alert("Registration for Mastering LaTeX is closed as entries are full.");
-      return;
-    }
-
-    if (formData.workshop === "Prototype to Product: ESP32 & Raspberry Pi") {
-      alert("Registration for ESP32 & Raspberry Pi is closed as entries are full.");
+    if (formData.workshop !== "Web Development Workshop") {
+      alert(`Registration for ${formData.workshop} is closed as entries are full.`);
       return;
     }
 
@@ -386,14 +381,14 @@ const Register = () => {
                 >
                   <option value="">Select Option</option>
                   <option value="Mastering LaTeX:Type Smart, Not Hard" disabled>Mastering LaTeX:Type Smart, Not Hard (Entry Full)</option>
-                  <option value="AI/ML Bootcamp">AI/ML Bootcamp</option>
-                  <option value="Introduction to VLSI and Its Applications">Introduction to VLSI and Its Applications</option>
-                  <option value="Introduction to Agentic Ai">Introduction to Agentic Ai</option>
-                  <option value="Electric Vehicle Workshop">Electric Vehicle Workshop</option>
-                  <option value="Cybersecurity Workshop">Cybersecurity Workshop</option>
-                  <option value="Cloud Byte">Cloud Byte</option>
+                  <option value="AI/ML Bootcamp" disabled>AI/ML Bootcamp (Entry Full)</option>
+                  <option value="Introduction to VLSI and Its Applications" disabled>Introduction to VLSI and Its Applications (Entry Full)</option>
+                  <option value="Introduction to Agentic Ai" disabled>Introduction to Agentic Ai (Entry Full)</option>
+                  <option value="Electric Vehicle Workshop" disabled>Electric Vehicle Workshop (Entry Full)</option>
+                  <option value="Cybersecurity Workshop" disabled>Cybersecurity Workshop (Entry Full)</option>
+                  <option value="Cloud Byte" disabled>Cloud Byte (Entry Full)</option>
                   <option value="Web Development Workshop">Web Development Workshop</option>
-                  <option value="Autodesk Workshop">Autodesk Workshop</option>
+                  <option value="Autodesk Workshop" disabled>Autodesk Workshop (Entry Full)</option>
                   <option value="Prototype to Product: ESP32 & Raspberry Pi" disabled>Prototype to Product: ESP32 & Raspberry Pi (Entry Full)</option>
                 </select>
               </div>

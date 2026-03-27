@@ -117,63 +117,10 @@ const Accomodation = () => {
               &times;
             </button>
             <h2 className="acc-modal-title">Accommodation Form</h2>
-            <form className="acc-form" onSubmit={handleSubmit}>
-              <div className="acc-form-group">
-                <label className="acc-form-label">Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="acc-form-input"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-              <div className="acc-form-group">
-                <label className="acc-form-label">College</label>
-                <input
-                  type="text"
-                  name="college"
-                  value={formData.college}
-                  onChange={handleChange}
-                  className="acc-form-input"
-                  placeholder="Enter your college name"
-                  required
-                />
-              </div>
-              <div className="acc-form-group">
-                <label className="acc-form-label">Date of Accommodation</label>
-                <input
-                  type="date"
-                  name="date"
-                  value={formData.date}
-                  onChange={handleChange}
-                  className="acc-form-input"
-                  required
-                  min="2026-03-24"
-                  max="2026-03-28"
-                />
-              </div>
-              <div className="acc-form-group">
-                <label className="acc-form-label">Gender</label>
-                <select
-                  name="gender"
-                  value={formData.gender}
-                  onChange={handleChange}
-                  className="acc-form-select"
-                  required
-                >
-                  <option value="" disabled>Select gender</option>
-                  <option value="Male">Male</option>
-                  <option value="Female">Female</option>
-                  <option value="Other">Other</option>
-                </select>
-              </div>
-              <button type="submit" className="acc-form-submit">
-                Submit Request
-              </button>
-            </form>
+            <div className="acc-form" style={{ textAlign: "center", color: "#c5c9ff", padding: "40px 20px" }}>
+              <h3 style={{ color: "#ff4d4d", marginBottom: "15px" }}>Accommodation Entries Full</h3>
+              <p>We have reached our maximum capacity and are no longer accepting new accommodation requests.</p>
+            </div>
           </div>
         </div>
       )}
